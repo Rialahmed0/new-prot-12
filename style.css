@@ -97,3 +97,43 @@ body{
     color: rgb(97, 97, 97);
     margin-bottom: 30px;
 }
+
+/* exp section */
+.exp{
+    background-image: url(/image/exp-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.exp-text{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding: 15px;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+}
+.text-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, rgb(255, 60, 0) , rgb(255, 102, 0));
+    border-image-slice: 1;
+}
+.text-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, rgb(21, 0, 255) , rgb(0, 200, 255));
+    border-image-slice: 1;
+}
+.exp-text h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.exp-text h5{
+    font-weight: 600;
+    font-size: 15px;
+    color: orange;
+    margin-bottom: 20px;
+}
+.exp-text p{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 100px;
+}
