@@ -53,7 +53,47 @@ body{
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(255, 60, 0) , rgb(255, 102, 0));
     color: white;
-    
+    cursor: pointer;
 }
 
 /* dream section */
+.dream{
+    background-image: url(/image/dream-bg.png); /* here id add background img */
+    height: 600px;                              /*i add height for visibility*/
+    background-repeat: no-repeat; 
+    background-position: right;                 /* here i add position to left to right */
+}
+.dream-img {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.dream-img img{
+    width: 100%;
+}
+.dream-text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 6%;
+
+}
+.dream-text h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+.dream-text span{
+    color: orange;
+}
+.dream-text h4{
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.dream-text p{
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
